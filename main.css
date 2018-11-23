@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+
+    font-family: 'Comfortaa', cursive;
+    background-color: #8e8a8a52;
+    padding-bottom: 0px;
+
+    background: linear-gradient(rgba(12, 9, 4, 0.40), rgba(12, 9, 4, 0.40)), rgba(12, 9, 4, 0.40) url(assets/6n.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.container {
+  display: flex;
+  /*grid-template-columns: repeat(auto-fit minmax(200px, 1fr));*/
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.item {
+  flex: 50%;
+}
+
+
+.item3 > img {
+  width: 280px;
+  padding: 90px;
+  margin: 0 auto;
+}
+
+.item2 {
+  color: white;
+}
+
+img {
+  display: block;
+  width: 100%;
+
+}
+
+
+
+
+
+
+
+
